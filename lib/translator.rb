@@ -1,5 +1,3 @@
-require 'pry'
-require 'yaml'
 
 def load_library
   library = YAML.load_file(file_path)
